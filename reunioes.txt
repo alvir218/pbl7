@@ -34,3 +34,4 @@ gabriel * 	Gabriel Fernandes, Matheus Delavi e Anderson Peixoto - 	editora
 anderson * 	Evelin João e Anderson S. - 				livro
 
 
+consultar os colegas para definir qual tecnologia de api será usada.
