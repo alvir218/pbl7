@@ -15,7 +15,22 @@ id: 90528
 data: 24/09/2021
 https://conferenciaprod.uninter.com/#/assistir-gravacao/OTA1Mjg%3D
 
+
+
 Reunião 4
 data: 08/10/2021
 https://youtu.be/UeXHtV08P_s
+
+Distribuído as atividades entre os grupos
+
+De acordo com a descrição as tabelas principais foram distribuídos as tarefas entre grupos:
+
+lider		integrantes						api que será desenvolvida
+
+allan * 	Adriana, Allan e Isaías - 				professor
+vinicius * 	Vinicius Marcante, Matheus Iung e Leonardo Diogo - 	disciplina
+icaro * 	Amanda Saporiti, Ícaro e Talita - curso
+gabriel * 	Gabriel Fernandes, Matheus Delavi e Anderson Peixoto - 	editora
+anderson * 	Evelin João e Anderson S. - 				livro
+
 
