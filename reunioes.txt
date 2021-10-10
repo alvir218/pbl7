@@ -35,3 +35,94 @@ anderson * 	Evelin João e Anderson S. - 				livro
 
 
 consultar os colegas para definir qual tecnologia de api será usada.
+
+sera usado o banco de dados MySql
+
+
+
+
+
+conversa com o anderson
+
+[9:58 PM, 27/09/2021] andersonS stonoga c: Fala Allan blz
+[9:58 PM, 27/09/2021] allanSv: oi anderson tudo bem
+[9:58 PM, 27/09/2021] andersonS stonoga c: è o Anderson
+[9:58 PM, 27/09/2021] andersonS stonoga c: tranquilo
+[9:59 PM, 27/09/2021] andersonS stonoga c: eu tava vendo aqui a aula de sexta do PBL
+[9:59 PM, 27/09/2021] andersonS stonoga c: será que ja fechou todas equipes
+[10:00 PM, 27/09/2021] allanSv: ainda nao foi definido as equipes por completo, tem muita gente que nem viu as reunioes,
+
+a tarefa de cada grupo tambem nao foram finalizadas
+[10:00 PM, 27/09/2021] andersonS stonoga c: foi defibidas as tarefas dos grupos?
+[10:00 PM, 27/09/2021] andersonS stonoga c: definidas?
+[10:01 PM, 27/09/2021] allanSv: nao
+[10:01 PM, 27/09/2021] allanSv: * a tarefa de cada grupo tambem nao foram definidas
+[10:01 PM, 27/09/2021] andersonS stonoga c: será que tem grupo que esta faltando gente?
+[10:02 PM, 27/09/2021] allanSv: tem rapaz, faz o seguinte, troca umas ideias no grupo da materia de redes? tu esta no grupo?
+[10:02 PM, 27/09/2021] andersonS stonoga c: não estou
+[10:02 PM, 27/09/2021] allanSv: um momento
+[10:03 PM, 27/09/2021] allanSv: entra aqui e pergunta pro pessoal se tem algum grupo em aberto, sao 3 pessoas o maximo
+
+https://chat.whatsapp.com/GDIOSTILiaKBVhXaau7Ewf
+[10:12 PM, 27/09/2021] andersonS stonoga c: valeu Alan
+[10:12 PM, 27/09/2021] allanSv: disponha
+[3:53 PM, 10/10/2021] andersonS stonoga c: boa tarde allan
+[3:53 PM, 10/10/2021] andersonS stonoga c: blz
+[3:54 PM, 10/10/2021] allanSv: boa, diga
+[3:54 PM, 10/10/2021] andersonS stonoga c: fiz um app com djando
+[3:55 PM, 10/10/2021] andersonS stonoga c: como faco pra implementar a estrutura rest nele
+[3:55 PM, 10/10/2021] allanSv: é um bom investimento, mas o pessoal ainda vai escolher o framework, eu tambem estou estudando djangorestframework, tomara que o pessoal reconheça como uma boa escolha
+[3:56 PM, 10/10/2021] allanSv: tudo que eu precisei pra fazer o crud dele foram esses tutoriais...
+[3:56 PM, 10/10/2021] allanSv: https://www.youtube.com/watch?v=Syoz9ldmS6o
+https://www.youtube.com/watch?v=WuOjWTnnrfw
+[3:56 PM, 10/10/2021] allanSv: estou estudando em cima deles, a ideia é combinar os dois
+[3:57 PM, 10/10/2021] andersonS stonoga c: pq eu fiz tbm de um tutorial
+[3:57 PM, 10/10/2021] allanSv: eu acho que sei o que aconteceu, tu elaborou a api mas nao esta conseguindo testar o servidor. isso?
+[3:57 PM, 10/10/2021] andersonS stonoga c: so que eu pesquisei e vi que para mim utilizar o restframework
+[3:58 PM, 10/10/2021] andersonS stonoga c: eu tinha que abandonar o metodo request.POST
+[3:59 PM, 10/10/2021] allanSv: talvez o seu tutorial nao inclua o post, tem que implementar cada um que for usar pra funcionar, nao é automatico
+[4:00 PM, 10/10/2021] allanSv: veja os passos que tu deu pra fazer os outros metodos e encontre outro tutoria pra completar o serviço
+[4:01 PM, 10/10/2021] allanSv: legal, mas eu nao entendi a duvida
+[4:02 PM, 10/10/2021] allanSv: tu quer que eu avalie o codigo?
+[4:02 PM, 10/10/2021] andersonS stonoga c: pq pra mim utilizar o djangorastframework eu vi que eu tenho que abondonar esse request.POST
+[4:03 PM, 10/10/2021] andersonS stonoga c: queria saber como eu faço isso com djangoframework
+[4:04 PM, 10/10/2021] allanSv: é que o djangorestframework ja tem todas as classes prontas, veja esses tutoriais que eu te enviei que tu vai se encontrar, ja vem ate com um front em modo admin pra testar, vale a pena, qualquer um dos dois vai te ajudar a entender como funciona.
+
+parece que tu esta implementando na raça a api, tem jeito mais facil
+[4:05 PM, 10/10/2021] andersonS stonoga c: sim pia
+[4:06 PM, 10/10/2021] andersonS stonoga c: é que eu não sabia nada disso pia
+[4:06 PM, 10/10/2021] andersonS stonoga c: mexia com um pouco de front
+[4:06 PM, 10/10/2021] allanSv: sem problemas, eu tambem estou aprendendo, tive a sorte de encontrar bons tutoriais
+[4:07 PM, 10/10/2021] allanSv: que bom, pena que esse pbl é de back
+[4:09 PM, 10/10/2021] andersonS stonoga c: pois é então estava com essa divida tbm
+[4:10 PM, 10/10/2021] andersonS stonoga c: pq vc falou que front é opcional
+[4:11 PM, 10/10/2021] allanSv: isso, como foi tudo automatizado eu acabei fazendo tambem, mas a ideia é fazer uma api para ser consumida em qualquer plataforma
+[4:12 PM, 10/10/2021] allanSv: basta testar num postman da vida que ja cumpre a finalidade
+[4:16 PM, 10/10/2021] andersonS stonoga c: Quando ele quis dizer ali múltiplas interface de API
+[4:16 PM, 10/10/2021] andersonS stonoga c: o que seria essas interface?
+[4:17 PM, 10/10/2021] allanSv: a gente esta usando outro slide para distribuir as tarefas, deixa eu procurar aqui pra te mostrar
+[4:18 PM, 10/10/2021] allanSv: foram distribuidas as tarefas nessas classificaçoes
+[4:18 PM, 10/10/2021] allanSv: curso, professor, disciplina, livro e editora
+[4:19 PM, 10/10/2021] allanSv: cada equipe recebeu uma atribuicao sorteada
+[4:19 PM, 10/10/2021] allanSv: tem um slide que ele mostra como ficara o banco de dados e tem que implementar a parte da devida atribuicao
+[4:20 PM, 10/10/2021] allanSv: é esse slide mesmo
+[4:20 PM, 10/10/2021] allanSv: pra ver direito tem que baixar la do univirtus pra ler e entender
+[4:21 PM, 10/10/2021] allanSv: o desenho é um modelo do banco de dados feito no acces
+[4:22 PM, 10/10/2021] allanSv: tem que fazer isso no mysql
+[4:26 PM, 10/10/2021] andersonS stonoga c: então eu tenho que fazer o crud no mysql
+[4:28 PM, 10/10/2021] allanSv: sim, isso faz parte do trabalho
+[4:28 PM, 10/10/2021] andersonS stonoga c: to bom então
+[4:29 PM, 10/10/2021] andersonS stonoga c: valeu allan
+[4:29 PM, 10/10/2021] andersonS stonoga c: obrigado
+[4:29 PM, 10/10/2021] allanSv: disponha
+[4:29 PM, 10/10/2021] andersonS stonoga c: e desculpa a perturbação essas horas
+[4:32 PM, 10/10/2021] allanSv: ok, mas eu acho que sua duvida poder servir pra outras pessoas, posso postar essa conversa la no github?
+[4:35 PM, 10/10/2021] andersonS stonoga c: pode sim
+[4:38 PM, 10/10/2021] allanSv: se der certo essas ferramenta e tu gostar, por favor, deixa seu voto la no grupo de redes, eu tambem estou usando essas ferramentas
+[4:39 PM, 10/10/2021] andersonS stonoga c: na vdd é a primeira que to tento contato
+[4:40 PM, 10/10/2021] allanSv: sem problemas, posta tambem se tu encontrar outra melhor
+
+
+
+
+
