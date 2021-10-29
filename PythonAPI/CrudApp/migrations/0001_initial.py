@@ -20,17 +20,18 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
-            name='EditoraLivro',
-            fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('Id_Editora', models.CharField(max_length=100)),
-                ('Id_Livro', models.CharField(max_length=100)),
-            ],
-        ),
-        migrations.CreateModel(
             name='Livro',
             fields=[
                 ('LivroId', models.AutoField(primary_key=True, serialize=False)),
+            ],
+        ),
+        migrations.CreateModel(
+            name='EditoraLivro',
+            fields=[
+                ('id', models.BigAutoField(auto_created=True,
+                 primary_key=True, serialize=False, verbose_name='ID')),
+                ('Id_Editora', models.CharField(max_length=100)),
+                ('Id_Livro', models.CharField(max_length=100)),
             ],
         ),
     ]

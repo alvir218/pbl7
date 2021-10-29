@@ -10,10 +10,10 @@ class Editora(models.Model):
     LocalEditora = models.CharField(max_length=100)
 
 
+class Livro(models.Model):
+    LivroId = models.AutoField(primary_key=True)
+
+
 class EditoraLivro(models.Model):
     Id_Editora = models.CharField(max_length=100)
     Id_Livro = models.CharField(max_length=100)
-
-
-class Livro(models.Model):
-    LivroId = models.AutoField(primary_key=True)
