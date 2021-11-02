@@ -1,3 +1,3 @@
 Versão do Python 3.8 Latest security status
 Django 3.2.8 (LTS)
-
+ 
