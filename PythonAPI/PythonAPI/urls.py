@@ -16,6 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from CrudApp import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('pbl/editora', views.EditoraApi),
+    path('pbl/editora/<int:id>', views.EditoraApi),
+
 ]
