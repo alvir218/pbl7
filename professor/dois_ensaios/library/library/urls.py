@@ -30,8 +30,8 @@ from django.conf.urls import url, include
 
 
 #especificacao da url das imagens
-###from django.conf.urls.static import static
-###from django.conf import settings
+from django.conf.urls.static import static
+from django.conf import settings
 
 #criando uma rota
 #objeto sera adicionado depois nas rotas
@@ -47,6 +47,6 @@ urlpatterns = [
 
     #incluindo as urls do books
     url(r'^', include('books.urls'))
-] ###+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 #soma com a rota das imagens
 

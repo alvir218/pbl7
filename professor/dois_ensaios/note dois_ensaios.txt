@@ -153,3 +153,11 @@ COMO FAZER UPLOAD DE IMAGENS EM API REST COM DJANGO REST FRAMEWORK - YouTube
 https://www.youtube.com/watch?v=Syoz9ldmS6o
 
 
+instalar a biblioteca pillow
+#pip install pillow
+
+atualizar as migrations
+#python manage.py makemigrations
+
+atualiza o banco de dados com as migrations
+#python manage.py migrate
