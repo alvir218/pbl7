@@ -1,3 +1,5 @@
+#editado parcialmente
+
 """library URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -16,7 +18,7 @@ Including another URLconf
 from django.contrib import admin
 
 from django.urls import path, include
-#incluido include
+#incluido include para importar todas as rotas do projeto
 
 from rest_framework import routers
 import books
@@ -27,7 +29,12 @@ from books.api import viewsets as booksviewsets
 from django.conf.urls import url, include
 
 
+#especificacao da url das imagens
+###from django.conf.urls.static import static
+###from django.conf import settings
+
 #criando uma rota
+#objeto sera adicionado depois nas rotas
 route = routers.DefaultRouter()
 
 route.register(r'books', booksviewsets.BooksViewSet, basename='Books')
@@ -40,4 +47,6 @@ urlpatterns = [
 
     #incluindo as urls do books
     url(r'^', include('books.urls'))
-]
+] ###+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+#soma com a rota das imagens
+

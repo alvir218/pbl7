@@ -1,16 +1,17 @@
 seguindo e combinando 2 tutoriais nessa ordem:
 
-COMO FAZER UPLOAD DE IMAGENS EM API REST COM DJANGO REST FRAMEWORK - YouTube
-https://www.youtube.com/watch?v=Syoz9ldmS6o
+COMO CRIAR UMA API REST DO ZERO COM DJANGO REST FRAMEWORK - YouTube
+https://www.youtube.com/watch?v=wtl8ZyCbTbg
 
 Python Django + MySQL CRUD API Tutorial
 https://youtu.be/WuOjWTnnrfw
 
-
+COMO FAZER UPLOAD DE IMAGENS EM API REST COM DJANGO REST FRAMEWORK - YouTube
+https://www.youtube.com/watch?v=Syoz9ldmS6o
 
 o library é o projeto do tutorial como criar uma api rest do zero com django rest framework
 
-#install django djangorestframework
+#pip install django djangorestframework
 
 #django-admin startproject library .
 
@@ -19,6 +20,9 @@ o library é o projeto do tutorial como criar uma api rest do zero com django re
 #python .\manage.py runserver 
 
 #python manage.py migrate
+por padrao o django ja tem um banco de dados pendente pra criar usando migrate
+esse comando aplica as migrate
+sera utilizado para cada alteracao na estrutura do banco de dados
 
 adicionar os apps nas configuracoes settings.py
 em INSTALLED_APPS
@@ -142,5 +146,10 @@ teste da foto 24m15s
 21m26s
 implementacao das fotos
 
+
+
+tutorial das imagens 
+COMO FAZER UPLOAD DE IMAGENS EM API REST COM DJANGO REST FRAMEWORK - YouTube
+https://www.youtube.com/watch?v=Syoz9ldmS6o
 
 
