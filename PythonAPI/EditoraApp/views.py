@@ -3,8 +3,8 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
 from django.http.response import JsonResponse
 
-from CrudApp.models import Editora, Livro, EditoraLivro
-from CrudApp.serializers import EditoraSerializer, LivroSerializer, EditoraLivroSerializer
+from EditoraApp.models import Editora, Livro, EditoraLivro
+from EditoraApp.serializers import EditoraSerializer, LivroSerializer, EditoraLivroSerializer
 
 
 # Create your views here.

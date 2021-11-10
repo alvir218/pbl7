@@ -1,7 +1,7 @@
 from django.db.models import fields
 from django.db.models.base import Model
 from rest_framework import serializers
-from CrudApp.models import Editora, EditoraLivro, Livro
+from EditoraApp.models import Editora, EditoraLivro, Livro
 
 
 class EditoraSerializer(serializers.ModelSerializer):
