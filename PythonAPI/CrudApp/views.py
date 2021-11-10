@@ -19,7 +19,8 @@ def EditoraApi(request, id=0):
         editora_serializer = EditoraSerializer(data=editora_data)
         if editora_serializer.is_valid():
             editora_serializer.save()
-            return JsonResponse("Salvo com sucesso", safe=False)
+            return JsonResponse(
+                {'message': "Salvo com sucesso"}, status=201, safe=False)
         return JsonResponse("Falha ao salvar a requisição", safe=False)
     elif request.method == 'PUT':
         editora_data = JSONParser().parse(request)
@@ -33,3 +34,6 @@ def EditoraApi(request, id=0):
         editora = Editora.objects.get(EditoraId=id)
         editora.delete()
         return JsonResponse("Excluído com sucesso", safe=False)
+
+# return JsonResponse(
+#               {'status': 'false', 'message': "Salvo com sucesso"}, status=500, safe=False)
