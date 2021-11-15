@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'CrudApp.apps.CrudappConfig'
+    'CrudApp.apps.CrudappConfig',
+    'cursos'
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
@@ -84,10 +85,10 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'pblvii',
+        'NAME': 'pbl',
         'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': '',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
         'PORT': 3306
     }
 }
