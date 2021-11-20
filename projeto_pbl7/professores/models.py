@@ -31,13 +31,6 @@ class Professores(models.Model):
 
 
 
-    #todo
-    #completar com o esboco que estava no access do professor
-
-    resgistrado_desde = models.DateField(auto_now_add=True)
-
-
-
 #colocando o basico das tabelas dos outros grupos
 #para fazer o relacionamento com as foreignkey
 
