@@ -1,0 +1,107 @@
+
+
+a pasta raiz do projeto é a raiz do github ./pbl7/projeto_pbl7
+a pasta atual dos comandos sera representado por
+...\projeto_pbl7>
+nesse caso a pasta atual é ./pbl7/projeto_pbl7
+os tres pontos representam o caminho dela no seu computador
+
+instalar dependencias do django
+#pip install django djangorestframework
+
+na pasta projeto_pbl7 raiz do github foi iniciado um novo projeto django
+...\projeto_pbl7> django-admin startproject projeto_pbl7 .
+
+acessando a pasta do projeto projeto_pbl7
+...\projeto_pbl7> cd projeto_pbl7
+
+iniciado novo app do projeto_pbl7
+...\projeto_pbl7> django-admin startapp professores
+
+...\projeto_pbl7> cd ..
+
+para executar o projeto tem de estar na pasta raiz do github pbl7
+...\projeto_pbl7> python manage.py runserver
+
+para resolver o erro do banco de dados pre instalado
+...\projeto_pbl7> python manage.py migrate
+
+adicionado as dependencias no settings.py do projeto_pbl7
+foi adicionado o django_rest_framework e o app criado professores
+projeto_pbl7\settings.py
+
+criando as models
+os modelos do banco de dados
+projeto_pbl7\professores\models.py
+
+criado a pasta api e seu conteudo
+pra organizar o funcionamento da api
+serializers
+viewsets
+
+configurando rotas do projeto
+\projeto_pbl7\urls.py
+
+depois de pronto o projeto criar as migrations
+...\projeto_pbl7> python manage.py makemigrations
+
+depois de pronto o projeto aplicar as migrations
+...\projeto_pbl7> python manage.py migrate
+
+testar a api
+...\projeto_pbl7> python manage.py runserver
+
+tem que fazer a conexao com o banco de dados mysql
+pro sistema funcionar tem que adicionar a dependencia
+#pip install pymysql
+editando
+projeto_pbl7\settings.py
+
+atualizando as migracoes
+...\projeto_pbl7> python manage.py makemigrations
+
+antes de aplicar as migrations no banco de dados
+deve-se primeiro criar o schema no mysql
+create database projeto_pbl7
+
+aplicando as migracoes dessa vez vai pro banco de dados
+...\projeto_pbl7> python manage.py migrate
+
+
+pesquisando sobre as foreign keys
+tutorial
+A Simple Many-To-Many Example in Django
+https://www.youtube.com/watch?v=gf2-J9YOMcc
+
+criando as migrations
+...\projeto_pbl7> python manage.py makemigrations
+
+
+reinstalando dependencia de gerenciamento de criptografia
+...\projeto_pbl7> pip install cryptography
+
+
+
+exibir lista de migrations
+./manage.py showmigrations my_app
+
+aplicando as migrantions no banco de dados
+
+remover todas as migracoes anteriores
+...\projeto_pbl7> python manage.py migrate professores zero
+
+atualizando estrutura das migracoes
+...\projeto_pbl7> python manage.py makemigrations
+
+aplicando migracao atualizada
+o nome da migration pode variar
+checar o nome em professores\migrations
+
+...\projeto_pbl7> python manage.py migrate
+
+para reforcar
+...\projeto_pbl7> python manage.py migrate professores 0002_professores20_11_2021
+
+
+instalar a dependencia para puxar o codigo json da api
+...\projeto_pbl7> pip install requests
