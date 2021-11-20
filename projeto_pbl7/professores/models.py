@@ -5,6 +5,8 @@ from django.db import models
 #adicioando a biblioteca dos id automatizados
 from uuid import uuid4
 
+from django.db.models.fields import CharField
+
 # Create your models here.
 
 
@@ -12,10 +14,22 @@ from uuid import uuid4
 class Professores(models.Model):
     cod_professor = models.UUIDField(primary_key=True, default=uuid4, editable=False)
     nome_professor = models.CharField(max_length=320)
-    codigo_acesso = models.CharField(max_length=16)
+    ru = models.CharField(max_length=16)
     matricula = models.IntegerField()
     formacao = models.CharField(max_length=1024)
-    titulacao = models.CharField(max_length=320)
+    titulacao = models.CharField(max_length=1024)
+    area_titulacao = models.CharField(max_length=1024)
+    endereco_completo = models.CharField(max_length=512)
+    telefone_fixo = models.CharField(max_length=16)
+    whatsapp = models.CharField(max_length=16)
+    email = models.CharField(max_length=64)
+    data_ingresso_instituicao = models.DateField(auto_now_add=True)
+    data_docencia = models.DateField(blank=True, null=True)
+    data_docencia_instituicao = models.DateField(blank=True, null=True)
+    funcao = models.CharField(max_length=128)
+    regime_trabalho = CharField(max_length=64)
+
+
 
     #todo
     #completar com o esboco que estava no access do professor
