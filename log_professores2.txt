@@ -97,5 +97,9 @@ aplicando migracao atualizada
 o nome da migration pode variar
 checar o nome em professores\migrations
 
+...\projeto_pbl7> python manage.py migrate
+
+para reforcar
 ...\projeto_pbl7> python manage.py migrate professores 0001_professores20_11_2021
+
 
