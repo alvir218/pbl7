@@ -95,7 +95,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'projeto_pbl7',
         'USER': 'root',
-        'PASSWORD': 'Administrador',
+        'PASSWORD': 'root',
         'HOST': 'localhost',
         'PORT': '3306',
     }
