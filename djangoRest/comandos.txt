@@ -20,5 +20,3 @@ docker commands
 docker build --tag <docker image name> .
 docker run --publish 8000:8000 <docker image name> 
 
-docker build --tag pbl-api .
-docker run --publish 8000:8000 pbl-api
