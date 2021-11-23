@@ -17,7 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 from rest_framework import routers
-from editoraApp.api import viewsets as editoraviewsets
 from disciplinaApp.api import viewsets as disciplinaviewsets
 
 from rest_framework import permissions
@@ -40,8 +39,6 @@ schema_view = get_schema_view(
 
 
 route = routers.DefaultRouter()
-route.register(r'pbl/editora', editoraviewsets.EditoraViewSet,
-               basename="editora")
 
 route.register(r'pbl/disciplina', disciplinaviewsets.DisciplinaViewSet,
                basename="disciplina")
