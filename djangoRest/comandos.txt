@@ -1,0 +1,22 @@
+-----------------------------------------------
+django commands
+
+django-admin startproject . <project name>
+
+django-admin startapp <app_name>
+
+python manage.py migrate
+
+python manage.py makemigrations
+
+
+-----------------------------------------------
+pegar requisitos 
+
+pip freeze > requirements.txt
+-------------------------------------------
+docker commands
+
+docker build --tag <docker image name> .
+docker run --publish 8000:8000 <docker image name> 
+
