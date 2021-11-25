@@ -5,24 +5,26 @@
  <h1 align="center"> PBL VII
  </h1>
 
----
+
 
 ### API Python | Django Rest Framework
+---
 
 API desenvolvida pelos alunos dos cursos de Engenharia Elétrica e Engenharia da Computação como trabalho para obtenção de nota parcial. 
 
----
 
 ### 📋 Pré-requisitos
+---
 
 - [x] Python 3.8
 - [x] Django 3.2
 - [x] Django Rest Framework
 - [x] drf-yasg swagger generator
 
----
+
 
 ### 🔧 Instalação
+---
 
 Instalação do ambiente:
 
@@ -53,12 +55,12 @@ Instalação do ambiente:
    pip install -U drf-yasg
    ```    
 
----   
 
 ### 📝 Licença
+---   
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
----
+
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
