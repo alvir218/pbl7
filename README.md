@@ -35,21 +35,24 @@ Instalação do ambiente:
    - Add Python to PATH
 
  * Django
+
    cli na pasta do projeto.
 
    ```
    pip install django
    ```
 
- * Django Rest Framework
-   cli na pasta do projeto.
+* Django Rest Framework
+
+  cli na pasta do projeto.
 
    ```
    pip install djangorestframework
    ``` 
 
  * drf-yasg
-   cli na pasta do projeto.
+ 
+  cli na pasta do projeto.
 
    ```
    pip install -U drf-yasg
@@ -59,8 +62,8 @@ Instalação do ambiente:
 ### 📝 Licença
 ---   
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
 
 
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+
