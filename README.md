@@ -42,9 +42,9 @@ Instalação do ambiente:
    pip install django
    ```
 
-* Django Rest Framework
+ * Django Rest Framework
 
-  cli na pasta do projeto.
+   cli na pasta do projeto.
 
    ```
    pip install djangorestframework
