@@ -19,6 +19,7 @@ from django.urls import path, include
 from rest_framework import routers
 from editoraApp.api import viewsets as editoraviewsets
 from disciplinaApp.api import viewsets as disciplinaviewsets
+from cursos.api import viewsets as cursosviewsets
 
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
@@ -45,6 +46,9 @@ route.register(r'pbl/editora', editoraviewsets.EditoraViewSet,
 
 route.register(r'pbl/disciplina', disciplinaviewsets.DisciplinaViewSet,
                basename="disciplina")
+
+route.register(r'pbl/cursos', cursosviewsets.CursosViewSets,
+              basename="cursos")
 
 
 urlpatterns = [

@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'editoraApp',
     'disciplinaApp',
+    'cursos'
 ]
 
 MIDDLEWARE = [
