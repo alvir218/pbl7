@@ -7,8 +7,8 @@ class Disciplina(models.Model):
     Ementa = models.CharField(max_length=1000)
     Habilidades = models.CharField(max_length=1000)
     Competencias = models.CharField(max_length=1000)
-    CodProcedimentos = models.CharField(max_length=100)
-    CodSistematica = models.CharField(max_length=100)
-    CodCronograma = models.CharField(max_length=100)
+    CodProcedimentos = models.IntegerField()
+    CodSistematica = models.IntegerField()
+    CodCronograma = models.IntegerField()
 
 # Create your models here.
