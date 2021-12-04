@@ -49,7 +49,7 @@ route.register(r'pbl/disciplina', disciplinaviewsets.DisciplinaViewSet,
                basename="disciplina")
 
 route.register(r'pbl/cursos', cursosviewsets.CursosViewSets,
-              basename="cursos")
+               basename="cursos")
 
 route.register(r'pbl/livros', livrosviewsets.LivrosViewSet,
                basename="livros")
@@ -61,6 +61,8 @@ route.register(r'pbl/biblioteca', livrosviewsets.BibliotecaViewSet,
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(route.urls)),
+    path('swagger.yaml',
+         schema_view.without_ui(cache_timeout=0), name='schema-json'),
     path('swagger/', schema_view.with_ui('swagger',
          cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc',
