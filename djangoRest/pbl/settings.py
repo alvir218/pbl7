@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'editoraApp',
     'disciplinaApp',
     'cursos',
-    'Livros'
+    'Livros',
+    'professores'
 ]
 
 MIDDLEWARE = [

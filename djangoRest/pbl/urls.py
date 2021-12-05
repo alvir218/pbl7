@@ -21,6 +21,7 @@ from editoraApp.api import viewsets as editoraviewsets
 from disciplinaApp.api import viewsets as disciplinaviewsets
 from cursos.api import viewsets as cursosviewsets
 from Livros.api import viewsets as livrosviewsets
+from professores.api import viewsets as professoresviewsets
 
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
@@ -56,6 +57,9 @@ route.register(r'pbl/livros', livrosviewsets.LivrosViewSet,
 
 route.register(r'pbl/biblioteca', livrosviewsets.BibliotecaViewSet,
                basename="biblioteca")
+
+route.register(r'pbl/professores', professoresviewsets.ProfessoresViewSet,
+               basename="professores")
 
 
 urlpatterns = [
